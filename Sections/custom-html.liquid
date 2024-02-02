@@ -1,0 +1,23 @@
+<div id="custom-section">
+    <div class="custom-code">{{section.settings.custom_HTML}}</div>
+</div>
+{% schema %}
+    {
+        "name": "Custom HTML",
+        "settings": [
+            {
+                "type":"textarea",
+                "id": "custom_HTML",
+                "label": "Code"
+            }
+        ],
+        "presets": [
+            {
+                "name": "Custom HTML",
+                "category": "iKOOLCORE",
+                "settings": {
+                }
+            }
+        ]
+    }
+{% endschema %}
